@@ -1,26 +1,92 @@
 <!doctype html>
 <html class="" lang="en">
 
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>Week 5, Part 2</title>
+  <title>Week 5, Part 2</title>
 
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="/images/favicon.png">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-  <body>
+</head>
 
-    <h1>Week 5, Part 2</h1>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Silly Story Generator</a>
+    <!--button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-	</body>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>-->
+  </nav>
 
+  <main><!--main role="main" class="container"-->
+    <div class="starter-template">
+      <img src="images/book_header.png" alt="Illustration of an Open Book">
+      <h1>Silly Story Generator</h1>
+      <p class="lead">Want a bit of laugh?<br> Enter 2 character names and the  Silly Story Generator will do the rest!</p>
+    </div>
+    <div>
+      <label for="customNameA">Character A:</label>
+      <input id="customNameA" type="text" placeholder="Bob">
+    </div>
+    <div>
+      <label for="customNameB">Character B:</label>
+      <input id="customNameB" type="text" placeholder="Karen">
+    </div>
+    <div>
+      <label for="us">United States &nbsp;</label><input id="us" type="radio" name="ukus" value="us" checked>&nbsp; &nbsp; &nbsp;
+      <label for="uk">United Kingdom &nbsp;</label><input id="uk" type="radio" name="ukus" value="uk">&nbsp; &nbsp; &nbsp;
+      <label for="lalaland">La La Land &nbsp;</label><input id="lalaland" type="radio" name="ukus" value="lalaland">&nbsp; &nbsp; &nbsp;<br>
+    </div>
+    <div>
+      <button class="randomize">Generate random story</button><br>
+    </div>
+    <p class="story"></p>
+
+  </main><!-- /.container -->
+
+  <footer>Header Illustration Designed by <a href="http://www.freepik.com">macrovector / Freepik</a><br>
+          Background image Designed by <a href="http://www.freepik.com">Freepik</a>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+
+  <script src="js/scripts.js"></script>
+</body>
 </html>

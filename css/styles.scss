@@ -1,0 +1,70 @@
+body {
+  background: #333 url(../images/book_bg.png);
+  text-align: center;
+  padding-top: 3rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+
+img {
+  max-height: 15rem;
+}
+
+main {
+  background-color: #fff;
+  margin: 20px 50px 20px 50px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+}
+
+footer {
+  padding: 10px;
+  font-size: 12px;
+}
+
+button {
+  background-color: #5eb27f;
+  color: #fff;
+  border: 2px solid #489b5f;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #489b5f;
+  color: #fff;
+  border: 2px solid #489b5f;
+}
+
+.navbar-brand {
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.starter-template {
+  background-color: #fff;
+  margin: 0px 50px 0px 50px;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.story {
+  border: 2px solid #489b5f;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 5px;
+  visibility: hidden;
+  color: #489b5f
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+}
